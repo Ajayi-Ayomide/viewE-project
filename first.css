@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.one{
+    background-color:#fff9f2;
+    padding-top:15%;
+}
+ul{
+    list-style: image-set(url(images/Icon.png));
+}
+.seven {
+    background-color: #fff9f2;
+}
+.various {
+    border-top: 4px solid brown;
+    border-right: 4px solid brown;
+    border-radius: 15px;
+}
+.eight{
+    background-color: #fff9f2;
+}
+.car{
+    border-top: 4px solid brown;
+    border-right: 4px solid brown;
+    border-radius: 15px;
+}
+.nine {
+    background-color: #fff9f2;
+}
+.notch {
+    border-top: 4px solid brown;
+    border-right: 4px solid brown;
+    border-radius: 15px;
+}
+.int{
+    border-top: 4px solid brown;
+    border-right: 4px solid brown;
+    border-radius: 15px;
+}
+.ten{
+    background-color: #14394c;
+    color: white;
+}
+.tenth{
+    position: relative;
+    right: 110px;
+}
+
+.twelve{
+    background-color:#fff9f2;
+}
+.thirtheen{
+    background-color: #6d1830;
+    color: white;
+}
+
+.fut{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-left: -30px;
+}
+@media screen and (max-width:767px) {
+    .tenth{
+        position: relative;
+        right: 10px;
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    border-bottom:1px solid black;
+    z-index: 1;
+}
+
+.one{
+    background-color: #14394c;
+    color: white;
+    padding-top: 5%;
+}
+
+.third{
+    justify-content: center;
+}
+
+.four{
+    background-color: #6d1830;
+    color: white;
+}
+.fut{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-left: -30px;
+}
