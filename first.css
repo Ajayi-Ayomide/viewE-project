@@ -15,7 +15,7 @@ header{
     padding-top:15%;
 }
 ul{
-    list-style: image-set(url(images/Icon.png));
+    list-style: image-set(url(imagesHome/Icon.png));
 }
 .seven {
     background-color: #fff9f2;
@@ -73,5 +73,13 @@ ul{
     .tenth{
         position: relative;
         right: 10px;
+    }
+    .three .th{
+        flex-direction:row-reverse;
+        flex-wrap:wrap-reverse;
+    }
+    .five .th{
+        flex-direction:row-reverse;
+        flex-wrap:wrap-reverse;
     }
 }
