@@ -11,6 +11,12 @@ header{
     z-index: 1;
 }
 
+.two h1{
+    color: #6d1830;
+}
+.three h1{
+    color: #6d1830;
+}
 .one{
     background-color: #14394c;
     color: white;
